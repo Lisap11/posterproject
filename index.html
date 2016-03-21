@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="js/script.js"></script>
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<form>
+			<input id="words" ><br />
+			<label>Font Color</label>
+			<input id="text_color" type="color"/><br />
+			<label>Font Size</label>
+			<input id="font_size" type="range" value="24" min="8" max="72"><br />
+			<!-- add an input so your user can choose a background color for their poster (hint: use id="bkgdColor") -->
+			<label>Background Color</label>
+			<input id="bkgdColor" type="color" />
+
+			<input id="submit" type="submit" /><br />
+		</form>
+			<div id="poster">
+				<p id="poster_text"></p>
+			</div>
+		
+		</form>
+	</body>
+</html>
